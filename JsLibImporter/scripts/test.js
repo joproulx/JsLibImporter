@@ -1,11 +1,11 @@
 define(["require", "exports", 'underscoreLib'], function(require, exports, __underscore__) {
     var underscore = __underscore__;
 
-    exports._ = underscore;
+    var _ = underscore;
     var Test = (function () {
         function Test() { }
         Test.prototype.executeTest = function () {
-            exports._.each([
+            _.each([
                 1, 
                 2, 
                 3
