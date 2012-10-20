@@ -1,0 +1,1 @@
+export function each(obj: any, f: Function) { }

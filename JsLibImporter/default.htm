@@ -1,0 +1,17 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>How to import javascript libraries</title>
+    <script src='scripts/libs/require.js' data-main='scripts/app' ></script>
+</head>
+<body>
+    <script>
+        require(['test'], function (test) {
+            var foo = new test.Test();
+            foo.executeTest();
+        });
+    </script>
+</body>
+</html>
