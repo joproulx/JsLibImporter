@@ -5,13 +5,7 @@ define(["require", "exports", 'underscoreLib'], function(require, exports, __und
     var Test = (function () {
         function Test() { }
         Test.prototype.executeTest = function () {
-            _.each([
-                1, 
-                2, 
-                3
-            ], function (num) {
-                alert(num);
-            });
+            _.each([1, 2, 3], function (num) { alert(num); });
         };
         return Test;
     })();
