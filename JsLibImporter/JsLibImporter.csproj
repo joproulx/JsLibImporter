@@ -22,10 +22,6 @@
   <ItemGroup>
     <Content Include="default.htm" />
     <Content Include="scripts\app.js" />
-    <TypeScriptCompile Include="scripts\libraryImporter.ts" />
-    <Content Include="scripts\libraryImporter.js">
-      <DependentUpon>libraryImporter.ts</DependentUpon>
-    </Content>
     <Content Include="scripts\libs\require.js" />
     <Content Include="scripts\libs\underscore.js" />
     <TypeScriptCompile Include="scripts\test.ts" />

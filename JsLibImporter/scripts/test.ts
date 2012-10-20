@@ -1,5 +1,5 @@
 import underscore = module('underscoreLib');
-var _:underscore = underscore.underscore;
+var _:underscore = underscore;
 
 export class Test {
     executeTest() {
