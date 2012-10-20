@@ -1,10 +1,11 @@
-define(["require", "exports", 'libraryImporter'], function(require, exports, __l__) {
-    var l = __l__;
+define(["require", "exports", 'underscoreLib'], function(require, exports, __underscore__) {
+    var underscore = __underscore__;
 
+    exports._ = underscore;
     var Test = (function () {
         function Test() { }
         Test.prototype.executeTest = function () {
-            l._.each([
+            exports._.each([
                 1, 
                 2, 
                 3

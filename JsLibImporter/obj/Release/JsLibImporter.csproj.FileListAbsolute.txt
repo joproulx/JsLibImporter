@@ -1,0 +1,5 @@
+D:\Dev\JsLibImporter\JsLibImporter\bin\JsLibImporter.dll
+D:\Dev\JsLibImporter\JsLibImporter\bin\JsLibImporter.pdb
+D:\Dev\JsLibImporter\JsLibImporter\obj\Release\JsLibImporter.csprojResolveAssemblyReference.cache
+D:\Dev\JsLibImporter\JsLibImporter\obj\Release\JsLibImporter.dll
+D:\Dev\JsLibImporter\JsLibImporter\obj\Release\JsLibImporter.pdb
